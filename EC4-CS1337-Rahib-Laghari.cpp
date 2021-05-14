@@ -1,7 +1,6 @@
 // Author:     Rahib R Laghari
-// Course:     CS1337.010
 // Date:       5/7/2021
-// Assignment: EC4 - Conway's game of life
+// Title: Conway's Game of Life simulated
 // Compiler:   Visual Studio Code
 
 // Description:
