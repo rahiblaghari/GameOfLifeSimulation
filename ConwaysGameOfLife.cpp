@@ -181,7 +181,6 @@ void getNextArrayBool(char prevCells[51][51], bool liveCells[51][51], int sizeX,
                     counter ++;
                 }
             }
-            //////////////
             if(counter<2 || counter >3){
                 liveCells[i][j] = 0;
             }
@@ -235,6 +234,10 @@ int main(){
         sizeX = 50;
         sizeY = 50;
         createListCells(percentLive, liveCells, currentCells);
+    }
+    else{
+        cout << "Invalid, expected Yes or No" << endl;
+        return 59;
     }
     // print cells, then save the newer cells into a table for previous cells
     printAndSave(currentCells, prevCells, sizeX, sizeY);
